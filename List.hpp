@@ -1,3 +1,9 @@
+#ifndef __LIST_HPP__
+#define __LIST_HPP__
+
+#include <functional>
+#include <initializer_list>
+
 template <class T> class list
 {
 public:
@@ -268,3 +274,5 @@ private:
   size_t Length = 0;
   Node *Head = nullptr, *Tail = nullptr;
 };
+
+#endif
