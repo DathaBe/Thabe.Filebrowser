@@ -21,7 +21,7 @@ public:
   class Iterator
   {
   public:
-    explicit Iterator(Node *node)
+    Iterator(Node *node)
     {
       this->node = node;
     }
